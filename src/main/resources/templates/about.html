@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base::layout(~{::section})}">
+<head>
+	<meta charset="UTF-8" />
+	<title>About : Smart Contact Manager</title>
+	<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body class="about-body">
+<section class="about-sec">
+<div class="text-center mt-3">
+		<h1>About Us</h1>
+</div>
+ <section class="services" id="services">
+
+            <div class="services-container">
+
+                <div class="services-box">
+                   <div class="container text-center">
+                     <img style="width:200px" src="" alt="Image Not Found" th:src="@{/img/card1.jpg}"/>
+                   </div>
+                    <h3>Contact Information</h3>
+                    <p> Storing and organizing essential details about individuals or organizations, such as names, addresses, phone numbers, email addresses, job titles, etc.Allowing users to record and monitor the connections they have with each contact, including the history of interactions, meetings, and communications.</p>
+                </div>
+                <div class="services-box">
+                     <div class="container text-center">
+                     <img style="width:200px" src="" alt="Image Not Found" th:src="@{/img/card2.jpg}"/>
+                   </div>
+                    <h3>Data Import and Export</h3>
+                    <p>Allowing users to import existing contact lists or export data for backup purposes or integration with other tools.
+                    Sending reminders or notifications for follow-ups, important events, or any specific date-related information related to contacts.Very Useful and Helpful. </p>
+                </div>
+                <div class="services-box">
+                    <div class="container text-center">
+                     <img style="width:200px" src="" alt="Image Not Found" th:src="@{/img/card3.jpg}"/>
+                   </div>
+                    <h3>Search and Filtering And Accessibility</h3>
+                    <p>Offering robust search and filtering options to quickly find specific contacts based on various criteria.
+                    Providing mobile apps or responsive web designs to access and manage contacts on the go.Ensuring the safety of contact data through encryption  and implementing .
+                     </p>
+                </div>
+            </div>
+       </section>
+<section class="Team-sec">
+<div class="text-center mt-3">
+		<h1>Our Team</h1>
+</div>
+<section class="Team" id="Team">
+
+            <div class="Team-container">
+
+                <div class="Team-box">
+                   <div class="container text-center">
+                     <img style="width:200px; border-radius:50px;" src="" alt="Image Not Found" th:src="@{/img/Ehsan.jpg}"/>
+                   </div>
+                    <h3>Ehsan ul Khaliq</h3>
+                    <p>Backend Developer</p>
+                </div>
+                <div class="Team-box">
+                     <div class="container text-center">
+                     <img style="width:200px; border-radius:50px;" src="" alt="Image Not Found" th:src="@{/img/Ali.jpeg}"/>
+                   </div>
+                    <h3>Ali Hassan</h3>
+                    <p>Front-End & MySQL Developer</p>
+                </div>
+                <div class="Team-box">
+                    <div class="container text-center">
+                     <img style="width:160px; border-radius:50px;" src="" alt="Image Not Found" th:src="@{/img/Mohsin.jpeg}"/>
+                   </div>
+                    <h3 class="mt-2">Mohsin Rafiq</h3>
+                    <p>Front-End Developer</p>
+                </div>
+            </div>
+       </section>
+</section>
+</section>
+<section>
+ <footer id="footer">
+    		| Copyright © 2023 SmartContactManager.com All rights Reserved 
+ </footer>
+</section>
+
+</body>
+</html>
